@@ -1,0 +1,49 @@
+{
+  "payload": {
+    "export": "cart-delivery-options-transform-run",
+    "target": "cart.delivery-options.transform.run",
+    "input": {
+      "cart": {
+        "buyerIdentity": {
+          "purchasingCompany": {
+            "company": {
+              "id": "gid://shopify/Company/1"
+            }
+          }
+        },
+        "deliveryGroups": [
+          {
+            "deliveryOptions": [
+              {
+                "handle": "std",
+                "title": "Standard"
+              },
+              {
+                "handle": "exp",
+                "title": "Express"
+              },
+              {
+                "handle": "b2b-1",
+                "title": "B2B Shipping"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "output": {
+      "operations": [
+        {
+          "deliveryOptionHide": {
+            "deliveryOptionHandle": "std"
+          }
+        },
+        {
+          "deliveryOptionHide": {
+            "deliveryOptionHandle": "exp"
+          }
+        }
+      ]
+    }
+  }
+}

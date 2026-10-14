@@ -1,0 +1,19 @@
+query CartValidationsGenerateRunInput {
+  cart {
+    deliveryGroups {
+      deliveryAddress {
+        countryCode
+      }
+      cartLines {
+        merchandise {
+          __typename
+          ... on ProductVariant {
+            product {
+              id
+            }
+          }
+        }
+      }
+    }
+  }
+}
