@@ -15,10 +15,12 @@
           {
             "deliveryOptions": [
               {
+                "code": "STANDARD",
                 "handle": "std",
                 "title": "Standard"
               },
               {
+                "code": "EXPRESS",
                 "handle": "exp",
                 "title": "Express"
               }

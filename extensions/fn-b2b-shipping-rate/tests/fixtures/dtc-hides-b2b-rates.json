@@ -11,14 +11,17 @@
           {
             "deliveryOptions": [
               {
+                "code": "STANDARD",
                 "handle": "std",
                 "title": "Standard"
               },
               {
+                "code": "EXPRESS",
                 "handle": "exp",
                 "title": "Express"
               },
               {
+                "code": "B2B_SHIPPING",
                 "handle": "b2b-1",
                 "title": "B2B Shipping"
               }

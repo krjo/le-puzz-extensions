@@ -9,6 +9,7 @@ query CartDeliveryOptionsTransformRunInput {
     }
     deliveryGroups {
       deliveryOptions {
+        code
         handle
         title
       }

@@ -9,8 +9,8 @@ const BLOCKED_COUNTRY_CODE = "FR";
 
 /** @type {Record<string, string>} Product ID -> title shown in the error message */
 const BLOCKED_PRODUCTS = {
-  "gid://shopify/Product/8256327745822": "Cheers!",
-  "gid://shopify/Product/15987267404062": "Cheers!"
+  "gid://shopify/Product/9050264928461": "Cheers!",
+  "gid://shopify/Product/9147526578381": "Cheers! Case Pack"
 };
 
 /**

@@ -10,7 +10,10 @@
  * Shipping rate titles reserved for B2B customers (matched case-insensitively).
  */
 const B2B_RATE_NAMES = [
-  "B2B Shipping",
+  "UPS® Ground",
+  "FedEx Ground®",
+  "FedEx Home Delivery®",
+  "Priority Mail"
 ];
 
 const B2B_RATE_NAME_SET = new Set(B2B_RATE_NAMES.map(normalize));
